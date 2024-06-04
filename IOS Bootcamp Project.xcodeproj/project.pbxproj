@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C04371D62C0BDE3200247517 /* CRUDResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04371D52C0BDE3200247517 /* CRUDResponse.swift */; };
+		C04371D82C0BDF3600247517 /* FoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04371D72C0BDF3600247517 /* FoodResponse.swift */; };
+		C04371DA2C0BE0E400247517 /* BasketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04371D92C0BE0E400247517 /* BasketResponse.swift */; };
+		C04371E02C0BEA9D00247517 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C04371DF2C0BEA9D00247517 /* Kingfisher */; };
+		C04371E72C0C851100247517 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C04371E62C0C851100247517 /* Alamofire */; };
+		C0692A9F2C0B566F00E460F7 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0692A9E2C0B566F00E460F7 /* Food.swift */; };
+		C0692AA32C0B574300E460F7 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0692AA22C0B574300E460F7 /* FoodCell.swift */; };
+		C0762E332C0E73FA0047CE89 /* Animation - 1717451809515.json in Resources */ = {isa = PBXBuildFile; fileRef = C0762E322C0E73FA0047CE89 /* Animation - 1717451809515.json */; };
+		C0762E352C0E7D350047CE89 /* Animation - 1717454231446.json in Resources */ = {isa = PBXBuildFile; fileRef = C0762E342C0E7D350047CE89 /* Animation - 1717454231446.json */; };
+		C0762E372C0E7F0B0047CE89 /* Animation - 1717454713170.json in Resources */ = {isa = PBXBuildFile; fileRef = C0762E362C0E7F0B0047CE89 /* Animation - 1717454713170.json */; };
 		C088D5B12C0B38F5001DD2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088D5B02C0B38F5001DD2EB /* AppDelegate.swift */; };
 		C088D5B32C0B38F5001DD2EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088D5B22C0B38F5001DD2EB /* SceneDelegate.swift */; };
-		C088D5B52C0B38F5001DD2EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088D5B42C0B38F5001DD2EB /* ViewController.swift */; };
+		C088D5B52C0B38F5001DD2EB /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088D5B42C0B38F5001DD2EB /* Homepage.swift */; };
 		C088D5B82C0B38F5001DD2EB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C088D5B72C0B38F5001DD2EB /* Base */; };
 		C088D5BA2C0B38F7001DD2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C088D5B92C0B38F7001DD2EB /* Assets.xcassets */; };
 		C088D5BD2C0B38F7001DD2EB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C088D5BC2C0B38F7001DD2EB /* Base */; };
+		C088D5C62C0B3AC1001DD2EB /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088D5C52C0B3AC1001DD2EB /* DetailPage.swift */; };
+		C088D5CB2C0B3F90001DD2EB /* BungeeSpice-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C088D5CA2C0B3F90001DD2EB /* BungeeSpice-Regular.ttf */; };
+		C0954A042C0E28F2005A6BE2 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C0954A032C0E28F2005A6BE2 /* Lottie */; };
+		C0A60C802C0B863000730C23 /* BasketDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A60C7F2C0B863000730C23 /* BasketDetail.swift */; };
+		C0A60C822C0B877A00730C23 /* BasketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A60C812C0B877A00730C23 /* BasketCell.swift */; };
+		C0A60C8A2C0B8EE800730C23 /* FoodRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A60C892C0B8EE800730C23 /* FoodRepo.swift */; };
+		C0A60C8D2C0B8F7C00730C23 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C0A60C8C2C0B8F7C00730C23 /* RxSwift */; };
+		C0A60C902C0B900500730C23 /* HompageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A60C8F2C0B900500730C23 /* HompageViewModel.swift */; };
+		C0A60C922C0B901900730C23 /* DetailPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A60C912C0B901900730C23 /* DetailPageViewModel.swift */; };
+		C0A60C942C0B902700730C23 /* BasketDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A60C932C0B902700730C23 /* BasketDetailViewModel.swift */; };
+		C0A60C962C0B9E0800730C23 /* BasketFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A60C952C0B9E0800730C23 /* BasketFood.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C04371D52C0BDE3200247517 /* CRUDResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDResponse.swift; sourceTree = "<group>"; };
+		C04371D72C0BDF3600247517 /* FoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodResponse.swift; sourceTree = "<group>"; };
+		C04371D92C0BE0E400247517 /* BasketResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketResponse.swift; sourceTree = "<group>"; };
+		C0692A9E2C0B566F00E460F7 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		C0692AA22C0B574300E460F7 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		C0762E322C0E73FA0047CE89 /* Animation - 1717451809515.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1717451809515.json"; sourceTree = "<group>"; };
+		C0762E342C0E7D350047CE89 /* Animation - 1717454231446.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1717454231446.json"; sourceTree = "<group>"; };
+		C0762E362C0E7F0B0047CE89 /* Animation - 1717454713170.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1717454713170.json"; sourceTree = "<group>"; };
 		C088D5AD2C0B38F5001DD2EB /* IOS Bootcamp Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Bootcamp Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C088D5B02C0B38F5001DD2EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C088D5B22C0B38F5001DD2EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C088D5B42C0B38F5001DD2EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C088D5B42C0B38F5001DD2EB /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
 		C088D5B72C0B38F5001DD2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C088D5B92C0B38F7001DD2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C088D5BC2C0B38F7001DD2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C088D5BE2C0B38F7001DD2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C088D5C52C0B3AC1001DD2EB /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
+		C088D5CA2C0B3F90001DD2EB /* BungeeSpice-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeSpice-Regular.ttf"; sourceTree = "<group>"; };
+		C0A60C7F2C0B863000730C23 /* BasketDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketDetail.swift; sourceTree = "<group>"; };
+		C0A60C812C0B877A00730C23 /* BasketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketCell.swift; sourceTree = "<group>"; };
+		C0A60C892C0B8EE800730C23 /* FoodRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRepo.swift; sourceTree = "<group>"; };
+		C0A60C8F2C0B900500730C23 /* HompageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HompageViewModel.swift; sourceTree = "<group>"; };
+		C0A60C912C0B901900730C23 /* DetailPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewModel.swift; sourceTree = "<group>"; };
+		C0A60C932C0B902700730C23 /* BasketDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketDetailViewModel.swift; sourceTree = "<group>"; };
+		C0A60C952C0B9E0800730C23 /* BasketFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketFood.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04371E72C0C851100247517 /* Alamofire in Frameworks */,
+				C04371E02C0BEA9D00247517 /* Kingfisher in Frameworks */,
+				C0A60C8D2C0B8F7C00730C23 /* RxSwift in Frameworks */,
+				C0954A042C0E28F2005A6BE2 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C04371DE2C0BEA9D00247517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C088D5A42C0B38F5001DD2EB = {
 			isa = PBXGroup;
 			children = (
 				C088D5AF2C0B38F5001DD2EB /* IOS Bootcamp Project */,
 				C088D5AE2C0B38F5001DD2EB /* Products */,
+				C04371DE2C0BEA9D00247517 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +108,102 @@
 			children = (
 				C088D5B02C0B38F5001DD2EB /* AppDelegate.swift */,
 				C088D5B22C0B38F5001DD2EB /* SceneDelegate.swift */,
-				C088D5B42C0B38F5001DD2EB /* ViewController.swift */,
+				C0A60C862C0B8EA600730C23 /* ui */,
+				C0A60C832C0B8E6C00730C23 /* data */,
+				C088D5C92C0B3F6A001DD2EB /* Fonts */,
 				C088D5B62C0B38F5001DD2EB /* Main.storyboard */,
 				C088D5B92C0B38F7001DD2EB /* Assets.xcassets */,
+				C0762E342C0E7D350047CE89 /* Animation - 1717454231446.json */,
+				C0762E362C0E7F0B0047CE89 /* Animation - 1717454713170.json */,
+				C0762E322C0E73FA0047CE89 /* Animation - 1717451809515.json */,
 				C088D5BB2C0B38F7001DD2EB /* LaunchScreen.storyboard */,
 				C088D5BE2C0B38F7001DD2EB /* Info.plist */,
 			);
 			path = "IOS Bootcamp Project";
+			sourceTree = "<group>";
+		};
+		C088D5C42C0B3AA8001DD2EB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C088D5B42C0B38F5001DD2EB /* Homepage.swift */,
+				C088D5C52C0B3AC1001DD2EB /* DetailPage.swift */,
+				C0A60C7F2C0B863000730C23 /* BasketDetail.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C088D5C92C0B3F6A001DD2EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C088D5CA2C0B3F90001DD2EB /* BungeeSpice-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C0A60C832C0B8E6C00730C23 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C0A60C852C0B8E8A00730C23 /* Repo */,
+				C0A60C842C0B8E7800730C23 /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C0A60C842C0B8E7800730C23 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				C0692A9E2C0B566F00E460F7 /* Food.swift */,
+				C0A60C952C0B9E0800730C23 /* BasketFood.swift */,
+				C04371D52C0BDE3200247517 /* CRUDResponse.swift */,
+				C04371D72C0BDF3600247517 /* FoodResponse.swift */,
+				C04371D92C0BE0E400247517 /* BasketResponse.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		C0A60C852C0B8E8A00730C23 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				C0A60C892C0B8EE800730C23 /* FoodRepo.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		C0A60C862C0B8EA600730C23 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				C0A60C8E2C0B8FD700730C23 /* viewModel */,
+				C0A60C882C0B8EBA00730C23 /* collectionView */,
+				C0A60C872C0B8EAF00730C23 /* tableView */,
+				C088D5C42C0B3AA8001DD2EB /* view */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		C0A60C872C0B8EAF00730C23 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				C0A60C812C0B877A00730C23 /* BasketCell.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		C0A60C882C0B8EBA00730C23 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C0692AA22C0B574300E460F7 /* FoodCell.swift */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+		C0A60C8E2C0B8FD700730C23 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C0A60C8F2C0B900500730C23 /* HompageViewModel.swift */,
+				C0A60C912C0B901900730C23 /* DetailPageViewModel.swift */,
+				C0A60C932C0B902700730C23 /* BasketDetailViewModel.swift */,
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +222,12 @@
 			dependencies = (
 			);
 			name = "IOS Bootcamp Project";
+			packageProductDependencies = (
+				C0A60C8C2C0B8F7C00730C23 /* RxSwift */,
+				C04371DF2C0BEA9D00247517 /* Kingfisher */,
+				C04371E62C0C851100247517 /* Alamofire */,
+				C0954A032C0E28F2005A6BE2 /* Lottie */,
+			);
 			productName = "IOS Bootcamp Project";
 			productReference = C088D5AD2C0B38F5001DD2EB /* IOS Bootcamp Project.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +256,12 @@
 				Base,
 			);
 			mainGroup = C088D5A42C0B38F5001DD2EB;
+			packageReferences = (
+				C0A60C8B2C0B8F7C00730C23 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				C04371DB2C0BEA7900247517 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C04371E12C0C84FB00247517 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C0954A022C0E28F2005A6BE2 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = C088D5AE2C0B38F5001DD2EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0762E352C0E7D350047CE89 /* Animation - 1717454231446.json in Resources */,
+				C0762E372C0E7F0B0047CE89 /* Animation - 1717454713170.json in Resources */,
+				C088D5CB2C0B3F90001DD2EB /* BungeeSpice-Regular.ttf in Resources */,
 				C088D5BA2C0B38F7001DD2EB /* Assets.xcassets in Resources */,
+				C0762E332C0E73FA0047CE89 /* Animation - 1717451809515.json in Resources */,
 				C088D5BD2C0B38F7001DD2EB /* Base in Resources */,
 				C088D5B82C0B38F5001DD2EB /* Base in Resources */,
 			);
@@ -138,9 +293,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C088D5B52C0B38F5001DD2EB /* ViewController.swift in Sources */,
+				C088D5B52C0B38F5001DD2EB /* Homepage.swift in Sources */,
+				C0692AA32C0B574300E460F7 /* FoodCell.swift in Sources */,
+				C0A60C902C0B900500730C23 /* HompageViewModel.swift in Sources */,
+				C04371D82C0BDF3600247517 /* FoodResponse.swift in Sources */,
 				C088D5B12C0B38F5001DD2EB /* AppDelegate.swift in Sources */,
 				C088D5B32C0B38F5001DD2EB /* SceneDelegate.swift in Sources */,
+				C0A60C8A2C0B8EE800730C23 /* FoodRepo.swift in Sources */,
+				C0A60C922C0B901900730C23 /* DetailPageViewModel.swift in Sources */,
+				C04371DA2C0BE0E400247517 /* BasketResponse.swift in Sources */,
+				C0A60C942C0B902700730C23 /* BasketDetailViewModel.swift in Sources */,
+				C04371D62C0BDE3200247517 /* CRUDResponse.swift in Sources */,
+				C088D5C62C0B3AC1001DD2EB /* DetailPage.swift in Sources */,
+				C0A60C962C0B9E0800730C23 /* BasketFood.swift in Sources */,
+				C0A60C822C0B877A00730C23 /* BasketCell.swift in Sources */,
+				C0A60C802C0B863000730C23 /* BasketDetail.swift in Sources */,
+				C0692A9F2C0B566F00E460F7 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +529,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C04371DB2C0BEA7900247517 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		C04371E12C0C84FB00247517 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		C0954A022C0E28F2005A6BE2 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+		C0A60C8B2C0B8F7C00730C23 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C04371DF2C0BEA9D00247517 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C04371DB2C0BEA7900247517 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C04371E62C0C851100247517 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C04371E12C0C84FB00247517 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C0954A032C0E28F2005A6BE2 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0954A022C0E28F2005A6BE2 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		C0A60C8C2C0B8F7C00730C23 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0A60C8B2C0B8F7C00730C23 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C088D5A52C0B38F5001DD2EB /* Project object */;
 }
