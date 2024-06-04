@@ -14,9 +14,6 @@
 		C04371E72C0C851100247517 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C04371E62C0C851100247517 /* Alamofire */; };
 		C0692A9F2C0B566F00E460F7 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0692A9E2C0B566F00E460F7 /* Food.swift */; };
 		C0692AA32C0B574300E460F7 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0692AA22C0B574300E460F7 /* FoodCell.swift */; };
-		C0762E332C0E73FA0047CE89 /* Animation - 1717451809515.json in Resources */ = {isa = PBXBuildFile; fileRef = C0762E322C0E73FA0047CE89 /* Animation - 1717451809515.json */; };
-		C0762E352C0E7D350047CE89 /* Animation - 1717454231446.json in Resources */ = {isa = PBXBuildFile; fileRef = C0762E342C0E7D350047CE89 /* Animation - 1717454231446.json */; };
-		C0762E372C0E7F0B0047CE89 /* Animation - 1717454713170.json in Resources */ = {isa = PBXBuildFile; fileRef = C0762E362C0E7F0B0047CE89 /* Animation - 1717454713170.json */; };
 		C088D5B12C0B38F5001DD2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088D5B02C0B38F5001DD2EB /* AppDelegate.swift */; };
 		C088D5B32C0B38F5001DD2EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088D5B22C0B38F5001DD2EB /* SceneDelegate.swift */; };
 		C088D5B52C0B38F5001DD2EB /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C088D5B42C0B38F5001DD2EB /* Homepage.swift */; };
@@ -42,9 +39,6 @@
 		C04371D92C0BE0E400247517 /* BasketResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketResponse.swift; sourceTree = "<group>"; };
 		C0692A9E2C0B566F00E460F7 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		C0692AA22C0B574300E460F7 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
-		C0762E322C0E73FA0047CE89 /* Animation - 1717451809515.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1717451809515.json"; sourceTree = "<group>"; };
-		C0762E342C0E7D350047CE89 /* Animation - 1717454231446.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1717454231446.json"; sourceTree = "<group>"; };
-		C0762E362C0E7F0B0047CE89 /* Animation - 1717454713170.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1717454713170.json"; sourceTree = "<group>"; };
 		C088D5AD2C0B38F5001DD2EB /* IOS Bootcamp Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Bootcamp Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C088D5B02C0B38F5001DD2EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C088D5B22C0B38F5001DD2EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,9 +107,6 @@
 				C088D5C92C0B3F6A001DD2EB /* Fonts */,
 				C088D5B62C0B38F5001DD2EB /* Main.storyboard */,
 				C088D5B92C0B38F7001DD2EB /* Assets.xcassets */,
-				C0762E342C0E7D350047CE89 /* Animation - 1717454231446.json */,
-				C0762E362C0E7F0B0047CE89 /* Animation - 1717454713170.json */,
-				C0762E322C0E73FA0047CE89 /* Animation - 1717451809515.json */,
 				C088D5BB2C0B38F7001DD2EB /* LaunchScreen.storyboard */,
 				C088D5BE2C0B38F7001DD2EB /* Info.plist */,
 			);
@@ -276,11 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0762E352C0E7D350047CE89 /* Animation - 1717454231446.json in Resources */,
-				C0762E372C0E7F0B0047CE89 /* Animation - 1717454713170.json in Resources */,
 				C088D5CB2C0B3F90001DD2EB /* BungeeSpice-Regular.ttf in Resources */,
 				C088D5BA2C0B38F7001DD2EB /* Assets.xcassets in Resources */,
-				C0762E332C0E73FA0047CE89 /* Animation - 1717451809515.json in Resources */,
 				C088D5BD2C0B38F7001DD2EB /* Base in Resources */,
 				C088D5B82C0B38F5001DD2EB /* Base in Resources */,
 			);
