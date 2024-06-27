@@ -10,6 +10,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>BungeeSpice-Regular.ttf</string>
+		<string>BungeeSpice-Regularr.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

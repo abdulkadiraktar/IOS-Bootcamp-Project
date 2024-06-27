@@ -136,6 +136,11 @@ extension BasketDetail : UITableViewDelegate , UITableViewDataSource {
                 self.viewModel.frepo.delete(sepet_yemek_id: Int(food.sepet_yemek_id!)!, kullanici_adi: "abdulkadir_aktar")
                 self.basketList.remove(at: indexPath.row)
                 self.basketTableView.deleteRows(at: [indexPath], with: .automatic)
+                let total = self.basketList.reduce(0) {
+                        $0 + Int(Double($1.toplam_fiyat ?? "0") ?? 0)
+                    }
+                    self.basketTotalPrice.text = "₺\(total)"
+               
             }
             alert.addAction(yesAction)
             
